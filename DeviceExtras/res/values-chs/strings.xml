@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2014-2016 The OmniROM Project
+     Copyright (C) 2021 The Evolution X Project
+     Copyright (C) 2018 The Xiaomi-SDM660 Project
+     Copyright (C) 2018-2021 crDroid Android Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+        http://www.apache.org/licenses/LICENSE-2.0
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+    <!-- Device Extras -->
+    <string name="device_title">附加功能</string>
+    <string name="device_summary">一加设备特定设置</string>
+	
+    <!-- Alert slider -->
+    <string name="notification_slider_category_title">三段式开关</string>
+    <string name="notification_slider_title">三段式开关设置</string>
+    <string name="notification_slider_selection_dialog_title">开关功能设置</string>
+    <string name="notification_slider_top_position">顶部</string>
+    <string name="notification_slider_middle_position">中间</string>
+    <string name="notification_slider_bottom_position">下方</string>
+    <string name="notification_slider_mode_total_silence">完全静音</string>
+    <string name="notification_slider_mode_alarms_only">仅警告</string>
+    <string name="notification_slider_mode_priority_only">仅优先级</string>
+    <string name="notification_slider_mode_none">全部</string>
+    <string name="notification_slider_usage_title">开关控制</string>
+    <string name="notification_slider_for_notification">通知</string>
+    <string name="notification_slider_for_flashlight">闪光灯</string>
+    <string name="notification_slider_for_brightness">亮度</string>
+    <string name="notification_slider_for_rotation">屏幕旋转</string>
+    <string name="notification_slider_for_ringer">铃声</string>
+    <string name="notification_slider_for_notification_ringer">通知和铃声</string>
+    <string name="notification_slider_flashlight_off">关闭</string>
+    <string name="notification_slider_flashlight_on">启用</string>
+    <string name="notification_slider_flashlight_blink">闪动</string>
+    <string name="notification_slider_brightness_auto">自动</string>
+    <string name="notification_slider_brightness_brightest">最亮</string>
+    <string name="notification_slider_brightness_darkest">最暗</string>
+    <string name="notification_slider_rotation_auto">自动</string>
+    <string name="notification_slider_rotation_portrait">竖屏</string>
+    <string name="notification_slider_rotation_landscape_90">横屏（90°）</string>
+    <string name="notification_slider_rotation_landscape_270">横屏（270°）</string>
+    <string name="notification_slider_ringer_normal">常规</string>
+    <string name="notification_slider_ringer_vibrate">震动</string>
+    <string name="notification_slider_ringer_silent">静音</string>
+
+    <!-- Display -->
+    <string name="display_title">显示</string>
+    <string name="dc_mode_title">DC调光</string>
+    <string name="dc_mode_summary">降低直流电消耗降低背景光</string>
+    <string name="hbm_mode_title">高亮度模式</string>
+    <string name="hbm_mode_summary">启用最大亮度</string>
+    <string name="hbm_mode_warning">长时间使用高亮度模式会对屏幕造成损害</string>
+    <string name="auto_hbm_title">自动高亮度模式</string>
+    <string name="auto_hbm_summary">根据环境光自动启用高亮度</string>
+    <string name="auto_hbm_threshold_title"></string>
+    <string name="auto_hbm_threshold_summary">阈值 (lux)</string>
+
+     <!-- FPS Info -->
+    <string name="fps_title">FPS监测</string>
+    <string name="fps_info_title">FPS 遮罩层</string>
+    <string name="fps_info_summary">使用遮罩层实时显示当前帧率</string>
+    <string name="fps_info_color_title">字体颜色</string>
+    <string name="fps_info_color_green">绿色</string>
+    <string name="fps_info_color_red">红色</string>
+    <string name="fps_info_color_blue">蓝色</string>
+    <string name="fps_info_color_yellow">黄色</string>
+    <string name="fps_info_color_black">黑色</string>
+    <string name="fps_info_color_accent">跟随系统</string>
+    <string name="fps_info_position_title">遮罩层位置</string>
+    <string name="fps_info_position_top_left">左上方</string>
+    <string name="fps_info_position_top_center">顶部居中</string>
+    <string name="fps_info_position_top_right">右上方</string>
+    <string name="fps_info_position_bottom_left">左下方</string>
+    <string name="fps_info_position_bottom_center">底部居中</string>
+    <string name="fps_info_position_bottom_right">右下方</string>
+    <string name="fps_info_text_size_title">字体大小</string>
+
+    <!-- Doze -->
+    <string name="ambient_display_title">环境显示</string>
+    <string name="ambient_display_enable_title">环境显示</string>
+    <string name="ambient_display_enable_summary">收到通知时唤醒屏幕</string>
+    <string name="ambient_display_gestures_title">环境显示手势</string>
+    <string name="ambient_display_gestures_summary">唤醒屏幕的其他手势</string>
+    <string name="ambient_display_summary">收到通知时唤醒屏幕</string>
+    <string name="ambient_display_always_on_title">总是显示</string>
+    <string name="dialog_ok">确定</string>
+    <string name="disabled">禁用</string>
+    <string name="doze_panel_title">Doze</string>
+    <string name="doze_settings_help_text">这些特性利用了传感器事件来加载通知光效，传感器仅在设备收到通知时启用，这样可以减少电量损耗。你也可以选择在熄屏时启用，但这会导致高耗电量。
+    </string>
+    <string name="doze_settings_help_title">帮助</string>
+    <string name="pickup_sensor_title">传感器</string>
+    <string name="pick_up_gesture_title">屏幕抬起</string>
+    <string name="pick_up_gesture_summary">抬起手机时显示通知光效</string>
+    <string name="pick_up_wake_gesture_summary">抬起唤醒</string>
+    <string name="pocket_gesture_title">口袋模式</string>
+    <string name="pocket_gesture_summary">从口袋里取出手机时显示通知光效</string>
+    <string name="proximity_sensor_title">靠近传感器</string>
+    <string name="ambient_display_always_on_summary">显示时间、通知图标和其他信息，会导致电池使用量增加。</string>
+    <string name="switch_bar_off">关闭</string>
+    <string name="switch_bar_on">启用</string>
+
+    <!-- Kcal -->
+    <string name="device_kcal_title">颜色校准</string>
+    <string name="kcal_enabled_summary">通过 KCAL 校准显示</string>
+    <string name="kcal_warning">确保启用sRGB颜色模式以获得最佳性能！</string>
+    <string name="advanced_settings_kcal">显示颜色校准</string>
+    <string name="cat_colormanagement">颜色设置</string>
+    <string name="cat_calibration">显示校准</string>
+    <string name="kcal_enabled_title">启用KCAL</string>
+    <string name="color_red">红色</string>
+    <string name="color_green">绿色</string>
+    <string name="color_blue">蓝色</string>
+    <string name="saturation">饱和度</string>
+    <string name="value">Value</string>
+    <string name="contrast">对比度</string>
+    <string name="hue">色调</string>
+    <string name="presets_dialog_title">预设选项</string>
+    <string name="preset_version_1">Version 1</string>
+    <string name="preset_version_2">Version 2</string>
+    <string name="preset_version_3">Version 3</string>
+    <string name="preset_triluminous">Triluminous</string>
+    <string name="preset_deep_black_white">Deep Black and White</string>
+    <string name="preset_deep_natural">Deep Natural</string>
+    <string name="preset_cool_amoled">Cool Amoled</string>
+    <string name="preset_extreme_amoled">Extreme Amoled</string>
+    <string name="preset_warm_amoled">Warm Amoled</string>
+    <string name="preset_hybrid_mamba">Hybrid Mamba</string>
+    <string name="preset_sir_banger">Sir Banger</string>
+    <string name="preset_gerard_extrem_cool">Gerard Extreme Cool</string>
+    <string name="preset_yoyoz808">Yoyoz808</string>
+    <string name="preset_purian">Purian</string>
+    <string name="preset_deep_black_colorful">Deep Black Colorful</string>
+    <string name="preset_vomer_deep_rich">Vomer Deep Rich</string>
+    <string name="preset_franco">Franco</string>
+    <string name="preset_wrinklefree_cool">WrinkleFree Cool</string>
+    <string name="preset_harley_tech">Harley-Tech</string>
+    <string name="preset_perfection">Perfection</string>
+    <string name="preset_banged_up">Banged up</string>
+    <string name="preset_sim_cooler">SimCooler</string>
+    <string name="preset_obsanity">Obsanity</string>
+    <string name="preset_obsanity_ips">Obsanity IPS</string>
+    <string name="kcal_presets" translatable="false">@string/presets_dialog_title</string>
+    <string name="kcal_reset">重置</string>
+
+    <!-- Screen off Gestures -->
+    <string name="touchscreen_gesture_settings_title">熄屏手势</string>
+    <string name="touchscreen_gesture_settings_summary">执行各种触摸屏手势以实现快速操作</string>
+    <string name="touchscreen_gestures_haptic_feedback_title">触觉反馈</string>
+    <string name="touchscreen_gestures_haptic_feedback_summary">触发手势时震动</string>
+    <string name="touchscreen_gesture_two_finger_down_swipe_title">两指下划</string>
+    <string name="touchscreen_gesture_one_finger_up_swipe_title">单指上划</string>
+    <string name="touchscreen_gesture_one_finger_up_swipe_home_title">单指从Home键上划</string>
+    <string name="touchscreen_gesture_one_finger_down_swipe_title">单指下划</string>
+    <string name="touchscreen_gesture_one_finger_left_swipe_title">单指左划</string>
+    <string name="touchscreen_gesture_one_finger_right_swipe_title">单指右划</string>
+    <string name="touchscreen_gesture_single_tap_title">单击</string>
+    <string name="touchscreen_gesture_up_arrow_title">绘制 \"Λ\"</string>
+    <string name="touchscreen_gesture_down_arrow_title">绘制 \"V\"</string>
+    <string name="touchscreen_gesture_right_arrow_title">绘制 \"&lt;\"</string>
+    <string name="touchscreen_gesture_left_arrow_title">绘制 \"&gt;\"</string>
+    <string name="touchscreen_gesture_letter_c_title">绘制 \"C\"</string>
+    <string name="touchscreen_gesture_letter_e_title">绘制 \"e\"</string>
+    <string name="touchscreen_gesture_letter_o_title">绘制 \"O\"</string>
+    <string name="touchscreen_gesture_letter_m_title">绘制 \"M\"</string>
+    <string name="touchscreen_gesture_letter_s_title">绘制 \"S\"</string>
+    <string name="touchscreen_gesture_letter_v_title">绘制 \"V\"</string>
+    <string name="touchscreen_gesture_letter_w_title">绘制  \"W\"</string>
+    <string name="touchscreen_gesture_letter_z_title">绘制 \"Z\"</string>
+    <!-- Screen off Gestures : Actions -->
+    <string name="touchscreen_gesture_action_dialog_title">手势动作</string>
+    <string name="touchscreen_gesture_action_do_nothing">无</string>
+    <string name="touchscreen_gesture_action_flashlight">打开闪光灯</string>
+    <string name="touchscreen_gesture_action_camera">打开相机</string>
+    <string name="touchscreen_gesture_action_browser">打开浏览器</string>
+    <string name="touchscreen_gesture_action_dialer">打开拨号器</string>
+    <string name="touchscreen_gesture_action_email">查看邮件</string>
+    <string name="touchscreen_gesture_action_messages">查看短信</string>
+    <string name="touchscreen_gesture_action_play_pause_music">播放/暂停音乐</string>
+    <string name="touchscreen_gesture_action_previous_track">播放上一首</string>
+    <string name="touchscreen_gesture_action_next_track">播放下一首</string>
+    <string name="touchscreen_gesture_action_volume_down">调低音量</string>
+    <string name="touchscreen_gesture_action_volume_up">调高音量</string>
+    <string name="touchscreen_gesture_action_ambient_display">唤醒环境显示</string>
+    <string name="touchscreen_gesture_action_wake_device">唤醒屏幕</string>
+
+    <!-- Touchscreen -->
+    <string name="touchscreen_title">屏幕触控</string>
+    <string name="game_mode_title">游戏模式</string>
+    <string name="game_mode_summary">强制所有应用使用240HZ采样率</string>
+    <string name="game_mode_warning">可能会减少电池寿命</string>
+
+    <!-- USB -->
+    <string name="usb_title">USB</string> 
+    <string name="usb2_fc_title">USB2.0快充</string>
+    <string name="usb2_fc_summary">在USB 2.0模式下强制使用900mA电流进行快速充电</string>
+
+    <!-- Vibrator -->
+    <string name="category_vibrator">震动</string>
+    <string name="vib_strength_title_head">强度</string>
+    <string name="vib_strength_summary_head">自定义震动强度</string>
+</resources>
